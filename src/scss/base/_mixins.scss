@@ -41,7 +41,7 @@
     grid-template-columns: repeat($columnas, 1fr);
 }
 
-@mixin scrollHorizonatal{
+@mixin scrollHorizontal{
     overflow-y: hidden;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
